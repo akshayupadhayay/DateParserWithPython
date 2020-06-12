@@ -1,4 +1,4 @@
-#`Propine Date Parser Test[Not Submitted]`
+#Propine Date Parser Test[Not Submitted]
 
 `Gist: https://gist.github.com/liangzan/1d9b3c8cece9540292173efa470fb43c`
 
@@ -23,7 +23,7 @@
 `$ pip install html-testRunner`
 
 
-#`To generate HTML report:`
+#To generate HTML report:
 
 `1. Go to root directory and run`
 
