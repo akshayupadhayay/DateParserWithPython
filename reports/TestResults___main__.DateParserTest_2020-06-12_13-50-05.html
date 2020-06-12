@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unittest Results</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="text-capitalize">Unittest Results</h2>
+                <p class='attribute'><strong>Start Time: </strong>2020-06-12 13:50:05</p>
+                <p class='attribute'><strong>Duration: </strong>26.98 s</p>
+                <p class='attribute'><strong>Summary: </strong>Total: 1, Pass: 0, Error: 1</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>__main__.DateParserTest</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='warning'>
+                            <td class="col-xs-10">test_parseDate</td>
+                            <td class="col-xs-1">
+                                <span class="label label-warning" style="display:block;width:40px;">Error</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p>Test URL: https://vast-dawn-73245.herokuapp.com/
+
+Total test dates in csv :	82
+['Apr 21 2010', 'June 11 2020', 'Jan 20', 'Tue May 13 16:30:00', 'Tue May 13 2014 23:30:00.789', 'Tue May 13 16:30:00 -0800 2014', '13 May 2014 23:50:49,999', 'May 13, 2014 11:30:00 PM PST', '23:30:00', '2014/05/13 16:30:59.786', '19990322+0100', '19990322', '1999-03-22 AD', '1999-03-22+01:00', '1999-03-22T05:06:07.000[Europe/Paris]', '1999-03-22T05:06:07.000', '1999-03-22T05:06:07', '1999-03-22T05:06:07.000Z', '1999-03-22T05:06:07.000+01:00', '1999-03-22T05:06:07+01:00', '1999-081+01:00', '1999W132', '1999-W13-2', '1999-03-22T05:06:07.000+01:00[Europe/Paris]', '1999-03-22T05:06:07+01:00[Europe/Paris]', '22.3.99', '22.3.99 5.06', '22.3.1999 5.06.07', '22.3.1999 5:06:07', '22-03-99', '22-03-99 05:06', '22-03-1999 05:06:07', '3/22/1999', '3/11/2022', '3/22/1999', '3/22/1999', '22-Mar-99', '22-Mar-99', 'Monday, March 22, 1999', 'Mar 22 1999', 'March 22 1999', '3/22/1999', '3/22/1999', '1999-03-22+01:00', '22/03/1999', '22/3/1999', '3/22/1999', '3/22/1999', '3/22/1999', '3/22/1999 5:06', '3/22/1999 5:06', '3/22/1999 5:06', '3/22/1999 5:06', '3/22/1999 5:06', 'Monday, March 22, 1999 5:06:07 AM CET', 'Mon Mar 22 05:06:07 CET 1999', 'Mon, 22 Mar 1999 05:06:07 +0100', '22 Mar 1999 05:06:07 +0100', '3/22/1999 5:06', '3/22/1999 5:06', '3/22/1999 5:06', '3/22/1999 5:06', '06:07.0', '22/03/1999 5:06:07 AM', '22/3/1999 5:06:07 AM', '3/22/1999 5:06', '3/22/1999 5:06', '3/22/1999 5:06', '3/22/1999 5:06', '3/22/1999 5:06', '22/03/1999 5:06 AM', '22/3/1999 5:06 AM', '3/22/1999 5:06', '3/22/1999 5:06', '3/22/1999 5:06', '3/22/1999 5:06', '3/22/1999 5:06', '3/22/1999 5:06', '3/22/1999 5:06', '3/22/1999 5:06', 'Mar.22.1999', '22/Mar/1999 5:06:07 +0100', '3/22/1999 5:06']
+Wed Apr 21 2010 00:00:00 GMT+0000
+INPUT:	Apr 21 2010 || OUTPUT:	Wed Apr 21 2010 00:00:00 GMT+0000
+
+
+Thu Jun 11 2020 00:00:00 GMT+0000
+INPUT:	June 11 2020 || OUTPUT:	Thu Jun 11 2020 00:00:00 GMT+0000
+
+
+Sat Jan 20 2001 00:00:00 GMT+0000
+INPUT:	Jan 20 || OUTPUT:	Sat Jan 20 2001 00:00:00 GMT+0000
+
+
+Sun May 13 2001 16:30:00 GMT+0000
+INPUT:	Tue May 13 16:30:00 || OUTPUT:	Sun May 13 2001 16:30:00 GMT+0000
+
+
+Tue May 13 2014 23:30:00 GMT+0000
+INPUT:	Tue May 13 2014 23:30:00.789 || OUTPUT:	Tue May 13 2014 23:30:00 GMT+0000
+
+
+</p><p style="color:maroon;">WebDriverException: Message: unknown error: session deleted because of page crash
+from tab crashed
+  (Session info: chrome=83.0.4103.97)
+</p><p style="color:maroon;">Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\propineDateParserTest\src\POM\Tests\MainParse.py", line 49, in test_parseDate
+    parseDate.click_submit()
+  File "C:\Users\Administrator\PycharmProjects\propineDateParserTest\src\POM\Pages\DateParsePage.py", line 28, in click_submit
+    self.driver.find_element_by_xpath(self.date_submitButton_xpath).send_keys(Keys.ENTER)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+    return self.find_element(by=By.XPATH, value=xpath)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 976, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: session deleted because of page crash
+from tab crashed
+  (Session info: chrome=83.0.4103.97)
+
+</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 1, Pass: 0, Error: 1 -- Duration: 26.98 s
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('td').on('click', '.btn', function(e){
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                var $this = $(this);
+                var $nextRow = $this.closest('tr').next('tr');
+                $nextRow.slideToggle("fast");
+                $this.text(function(i, text){
+                    if (text === 'View') {
+                        return 'Hide';
+                    } else {
+                        return 'View';
+                    };
+                });
+            });
+        });
+    </script>
+</body>
+</html
