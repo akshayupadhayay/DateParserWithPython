@@ -27,7 +27,7 @@
 
 `1. Go to root directory and run`
 
-`2. $ python -m src.POM.Tests.Parse`
+`2. $ python -m src.POM.Tests.MainParse`
 
 
 ![Alt text](reports/HTML_Report_Sample.PNG?raw=true "Sample HTML Report")
