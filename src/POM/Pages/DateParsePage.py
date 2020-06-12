@@ -20,11 +20,9 @@ class DateParsePage:
         WebDriverWait(self.driver, delay).until(EC.presence_of_element_located((By.XPATH, Locators.date_textBox_xpath)))
         self.driver.find_element_by_xpath(self.date_textBox_xpath).click()
         self.driver.find_element_by_xpath(self.date_textBox_xpath).clear()
-        # self.driver.find_element_by_xpath(self.date_textBox_xpath).send_keys(date)
         self.driver.execute_script("document.querySelector(\"input[placeholder='date']\").value = '{0}'".format(date))
 
     def click_submit(self):
-        # self.driver.find_element_by_xpath(self.date_submitButton_xpath).click()
         self.driver.find_element_by_xpath(self.date_submitButton_xpath).send_keys(Keys.ENTER)
 
     def check_result(self) -> str:

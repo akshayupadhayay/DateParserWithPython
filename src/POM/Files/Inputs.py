@@ -1,10 +1,10 @@
 import csv
 from unipath import Path
 
-absolute_path = Path('src/POM/Files/input.csv').absolute()  # To run from command line
+# absolute_path = Path('src/POM/Files/input.csv').absolute()  # To run from command line
 
 
-# absolute_path = Path("../Files/input.csv").absolute()  # To run from local machine
+absolute_path = Path("../Files/input.csv").absolute()  # To run from local machine, Main class = 'src/POM/Tests/MainParse.py'
 
 
 def csvReader():

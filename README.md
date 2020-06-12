@@ -1,5 +1,8 @@
 #Propine Date Parser Test[Not Submitted]
 
+`Main class = src/POM/Tests/MainParse.py`
+`Test file path config = src/POM/Files/Inputs.py`
+
 `Gist: https://gist.github.com/liangzan/1d9b3c8cece9540292173efa470fb43c`
 
 `Test URL: https://vast-dawn-73245.herokuapp.com/submit`
